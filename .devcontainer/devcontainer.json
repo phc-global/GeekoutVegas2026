@@ -33,37 +33,45 @@
 
   "portsAttributes": {
     "3000": {
-      "label": "App Preview",
-      "onAutoForward": "openPreview"
+      "label": "Landing Page Preview",
+      "onAutoForward": "openPreview",
+      "visibility": "public"
     },
     "3001": {
       "label": "Dev Server",
-      "onAutoForward": "notify"
+      "onAutoForward": "notify",
+      "visibility": "public"
     },
     "4000": {
       "label": "API",
-      "onAutoForward": "notify"
+      "onAutoForward": "notify",
+      "visibility": "public"
     },
     "5000": {
       "label": "Backend",
-      "onAutoForward": "notify"
+      "onAutoForward": "notify",
+      "visibility": "public"
     },
     "5173": {
-      "label": "Vite",
-      "onAutoForward": "openPreview"
+      "label": "Vite Preview",
+      "onAutoForward": "openPreview",
+      "visibility": "public"
     },
     "8000": {
-      "label": "Python",
-      "onAutoForward": "notify"
+      "label": "Python Server",
+      "onAutoForward": "notify",
+      "visibility": "public"
     },
     "8080": {
       "label": "HTTP Server",
-      "onAutoForward": "openPreview"
+      "onAutoForward": "openPreview",
+      "visibility": "public"
     }
   },
 
   "otherPortsAttributes": {
-    "onAutoForward": "notify"
+    "onAutoForward": "notify",
+    "visibility": "public"
   },
 
   "postCreateCommand": "npm install && npx playwright install chromium && npm run prebuild && mkdir -p ~/.claude/plugins/marketplaces && git clone https://github.com/anthropics/claude-code-plugins.git ~/.claude/plugins/marketplaces/claude-code-plugins || true",
