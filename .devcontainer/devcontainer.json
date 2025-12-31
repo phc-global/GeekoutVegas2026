@@ -74,6 +74,6 @@
     "visibility": "public"
   },
 
-  "postCreateCommand": "npm install && npx playwright install chromium && npm run prebuild && mkdir -p ~/.claude/plugins/marketplaces && git clone https://github.com/anthropics/claude-code-plugins.git ~/.claude/plugins/marketplaces/claude-code-plugins || true",
+  "postCreateCommand": "npm install && npx playwright install chromium && npm run prebuild",
   "postStartCommand": "echo '✅ Ready! Type claude to start.'"
 }

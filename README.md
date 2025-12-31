@@ -58,7 +58,14 @@ export GEMINI_API_KEY=your_gemini_key_here
 claude
 ```
 
-### 3. Clone Your First Page
+### 3. Install the Frontend Design Plugin
+
+Inside Claude, type:
+```
+/plugin install frontend-design
+```
+
+### 4. Clone Your First Page
 
 Ask Claude:
 > "Clone the landing page at https://example.com"
