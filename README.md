@@ -24,7 +24,7 @@
 
 ## Quick Start (One-Click!)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/samarhussain90/GeekoutVegas2026)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/phc-global/GeekoutVegas2026)
 
 ---
 
