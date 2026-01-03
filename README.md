@@ -30,19 +30,13 @@
 
 ## Setup
 
-### 1. Set Your API Key
-
-```bash
-export ANTHROPIC_API_KEY=your_anthropic_key_here
-```
-
-### 2. Start Claude Code
+### 1. Start Claude Code
 
 ```bash
 claude
 ```
 
-### 3. Paste The Prompt Below!
+### 2. Paste The Prompt Below!
 
 Copy and paste the prompt into Claude Code and watch it build the entire app.
 
@@ -216,22 +210,34 @@ NOW BUILD IT.
 
 ---
 
+## Push to Your Own GitHub
+
+After building, save your work to your own repo:
+
+```bash
+# 1. Create a new repo on GitHub (github.com/new)
+#    Name it: website-cloner (or whatever you want)
+#    Do NOT initialize with README
+
+# 2. Change the remote to your repo
+git remote set-url origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+# 3. Push your code
+git add -A
+git commit -m "My website cloner from Geekout Vegas 2026"
+git push -u origin main
+```
+
+---
+
 ## Pre-Installed Dependencies
 
 | Package | Purpose |
 |---------|---------|
 | **Node.js 20** | Runtime |
 | **Playwright** | Browser automation & cloning |
-| **TypeScript** | Type safety |
-| **Tailwind CSS** | Styling |
-
----
-
-## Get Your API Key
-
-| Service | Where to Get It |
-|---------|-----------------|
-| **Anthropic (Claude)** | [console.anthropic.com](https://console.anthropic.com) |
+| **Express** | Web server |
+| **WebSocket (ws)** | Real-time log streaming |
 
 ---
 
